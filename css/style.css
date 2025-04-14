@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #fff7fa;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  header {
+    background-color: #d81b60;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  header h1 {
+    margin-bottom: 10px;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 30px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  }
+  
+  h2 {
+    color: #d81b60;
+    margin-bottom: 15px;
+  }
+  
+
+  .lista-musicas {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .lista-musicas li a {
+    text-decoration: none;
+    color: #d81b60;
+    font-size: 1.1em;
+    transition: color 0.3s ease;
+  }
+  
+  .lista-musicas li a:hover {
+    color: #ad1457;
+    text-decoration: underline;
+  }
+  
+
+  .produtos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .produto {
+    width: 280px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    background-color: #fff;
+    text-align: center;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+  }
+  
+  .produto img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .produto h3 {
+    color: #d81b60;
+    margin-bottom: 8px;
+  }
+  
+  .produto p {
+    margin-bottom: 10px;
+  }
+  
+  select {
+    margin-top: 8px;
+    padding: 8px;
+    border-radius: 5px;
+    width: 100%;
+    border: 1px solid #ccc;
+  }
+  
+
+  button {
+    margin-top: 10px;
+    background-color: #d81b60;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #ad1457;
+  }
+  
+
+  footer {
+    background-color: #d81b60;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+  }
+  
+
+  @media (max-width: 768px) {
+    nav ul {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .produtos {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .produto {
+      width: 90%;
+    }
+  }
+  
