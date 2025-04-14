@@ -1,44 +1,50 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Produtos</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Produtos</title>
 </head>
 <body>
-    <header>
-        <h1> Sabrina Carpenter</h1>
-        <nav>
-            <ul>
-                <li> <a href="index.html">Início</a></li>
-                <li> <a href="item.html">Músicas</a></li>
-                <li> <a href="venda.html">Produtos</a></li>
-            </ul>
-        </nav>
-    </header>
+  <header>
+    <h1>Sabrina Carpenter</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="item.html">Músicas</a></li>
+        <li><a href="venda.html">Produtos</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <main>
-        <h2>Produtos Oficiais</h2>
-        <section class="produtos">
-          <div class="produto">
-            <img src="img/camiseta.jpg" alt="Camiseta Sabrina Carpenter">
-            <h3>Camiseta Oficial</h3>
-            <p>Camiseta Sabrina Carpenter Espresso Photo Tee</p>
-            <p><strong>R$ 164,90</strong></p>
-            <button>Comprar</button>
-          </div>
-        </section>
- 
+  <main>
+    <h2>Produtos Oficiais</h2>
+    <section class="produtos">
 
+      <div class="produto">
+        <img src="img/camiseta.jpg" alt="Camiseta Sabrina Carpenter">
+        <h3>Camiseta Oficial</h3>
+        <p>Camiseta Sabrina Carpenter Espresso Photo Tee</p>
+        <p><strong>R$ 164,90</strong></p>
+        <label for="tamanho">Tamanho:</label>
+        <select id="tamanho" name="tamanho">
+          <option value="pp">PP</option>
+          <option value="p">P</option>
+          <option value="m">M</option>
+          <option value="g">G</option>
+          <option value="gg">GG</option>
+        </select>
+        <button>Comprar</button>
+      </div>
 
-    <div class="produto">
+      <div class="produto">
         <img src="img/album.jpg" alt="Álbum físico Sabrina Carpenter">
         <h3>Álbum Físico</h3>
         <p>CD físico do álbum "emails I can't send".</p>
         <p><strong>R$ 400,00</strong></p>
         <button>Comprar</button>
-    </div>
+      </div>
 
       <div class="produto">
         <img src="img/ingresso.jpg" alt="Ingresso show Sabrina Carpenter">
@@ -47,11 +53,12 @@
         <p><strong>R$ 359,90</strong></p>
         <button>Comprar</button>
       </div>
+
     </section>
   </main>
-    <p>&copy; 2025 - Fã Page de Sabrina Carpenter</p>
-</footer>
 
+  <footer>
+    <p>&copy; 2025 - Fã Page de Sabrina Carpenter</p>
+  </footer>
 </body>
 </html>
-
