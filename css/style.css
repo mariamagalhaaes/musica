@@ -36,6 +36,14 @@ header h1 {
   font-weight: 600;
 }
 
+.logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+
 nav ul {
   list-style: none;
   display: flex;
@@ -88,7 +96,7 @@ h2 {
 .music-card {
   background: #ffffff;
   border-radius: 10px;
-  box-shadow: 0 5px 15px rgb(62, 131, 229);
+  box-shadow: 0 5px 15px rgba(62, 132, 229, 0.269);
   overflow: hidden;
   text-align: center;
   padding: 15px;
@@ -98,7 +106,7 @@ h2 {
 
 .music-card:hover {
   transform: translateY(-8px);
-  box-shadow: 0 10px 25px rgb(60, 86, 139);
+  box-shadow: 0 10px 25px rgb(226, 77, 201);
 }
 
 .music-card img {
@@ -214,12 +222,12 @@ footer {
     margin-bottom: 30px;
     padding: 25px;
     border-radius: 12px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 15px #8fabff34;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
   
   .index-section:hover {
     transform: translateY(-5px);
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 10px 25px rgba(255, 42, 198, 0.56);
   }
   
