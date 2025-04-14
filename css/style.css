@@ -110,7 +110,7 @@ h2 {
 }
 
 .music-card img {
-  width: 100%;
+  width: 10%;
   border-radius: 10px;
   margin-bottom: 10px;
 }
@@ -149,8 +149,11 @@ h2 {
   background-color: #ffffff;
   box-shadow: 0 5px 15px #8fabff50;
   width: 280px;
+  min-width: 460px;
   padding: 20px;
   text-align: center;
+  flex-direction: column;
+  justify-content: space-between;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
